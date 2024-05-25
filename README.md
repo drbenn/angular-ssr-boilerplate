@@ -1,5 +1,5 @@
 # Namecheap deployment
-1. If using a subpath for url, in index.html change/update base href to \<base href="https://danbennett.dev/angular-ssr-boilerplate"\>, otherwise, base href can remain  \<base href="/"\>.
+1. If using a subpath for url, in index.html change/update base href to \<base href="https://danbennett.dev/angular-ssr-boilerplate">, otherwise, base href can remain  \<base href="/">.
 2. ng build
 3. compress/archive the contents of dist/angular-ssr-boilerplate folder. So in root of zip there should be folders browser and server, and also have files 3rdpartylicense and prerenderedroutes.json.
 4. In namecheap, create node.js application
